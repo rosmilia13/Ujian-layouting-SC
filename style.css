@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .login-page{
+    background: url("img/login.jpg") center center fixed;
+    background-size: cover;
+}
+  .form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    background: rgba(123, 122, 122, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .form-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b3b2b2;
+    border-radius: 20px 0 20px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3f3f3f;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form-box button:hover {
+    background-color: #535353;
+  }
+  
+  .form-box p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .register-page{
+    background: url("img/register.jpg") center center fixed;
+    background-size: cover;
+}
+
+.register-box{
+    background: rgba(177, 175, 175, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.register-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .register-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 20px 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .register {
+    color:#000000;
+  }
+
+  .register-box button{
+        width: 100%;
+        padding: 10px;
+        background-color: #39533e;
+        color: #f5f5f5;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+  }
+
+  .register-box button:hover{
+    background-color: #166624;
+  }
+
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
